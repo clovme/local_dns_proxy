@@ -1,0 +1,25 @@
+; go install github.com/clovme/buildx@latest
+
+[env]
+GOOS   = windows
+GOARCH = amd64
+
+[filename]
+name    = local_dns_proxy
+is_plat = false
+is_arch = false
+is_ver  = false
+
+[build]
+is_gen  = false
+is_gui  = false
+is_all  = false
+is_upx  = true
+is_mode = false
+plat    = windows
+arch    = amd64
+version = 0,4,7
+
+[other]
+isComment  = false
+go_version = go1.25.1
