@@ -18,7 +18,7 @@ is_upx  = true
 is_mode = false
 plat    = windows
 arch    = amd64
-version = 0,4,7
+version = 0,4,8
 
 [other]
 isComment  = false

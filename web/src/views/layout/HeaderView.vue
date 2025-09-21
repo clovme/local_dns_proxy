@@ -184,7 +184,7 @@ const networkInterfacesClickEvent: VxePulldownEvents.OptionClick = ({ option }) 
 
   .right-item {
     cursor: pointer;
-    margin-left: 24px;
+    margin-left: 10px;
   }
   .right-item-title {
     vertical-align: middle;

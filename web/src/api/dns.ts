@@ -7,7 +7,6 @@ export interface DnsVO {
   ip: string
   status: string
   port: string
-  description: string
   updatedAt: string
   createdAt: string
 }

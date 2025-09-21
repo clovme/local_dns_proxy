@@ -1,6 +1,6 @@
 {
-  "name": "vxe-admin-template",
-  "description": "Vxe 后台管理系统模板",
+  "name": "local-dns-proxy",
+  "description": "本地DNS代理管理",
   "private": true,
   "version": "4.0.0",
   "type": "module",

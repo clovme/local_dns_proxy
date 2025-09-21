@@ -95,7 +95,7 @@ const gridOptions = reactive<VxeGridProps<DnsVO>>({
     { field: 'ip', title: '映射IP', sortable: true, width: 150, editRender: { name: 'VxeInput' } },
     { field: 'port', title: '映射端口', sortable: true, width: 120, editRender: { name: 'VxeInput' } },
     { field: 'status', title: '启用状态', sortable: true, width: 110, align: 'center', cellRender: statusCellRender },
-    { field: 'description', title: '描述', minWidth: 200, slots: { default: 'description' } },
+    { title: '描述', minWidth: 200, slots: { default: 'description' } },
     { field: 'updatedAt', title: '更新时间', width: 160, formatter: 'FormatDateTime', sortable: true },
     { field: 'createdAt', title: '创建时间', width: 160, formatter: 'FormatDateTime', sortable: true },
     { field: 'action', title: '操作', width: 160, slots: { default: 'action' } }
